@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>page</title>
+    
+    <script>
+        function testMethod(){
+          alert('testPageFromLocal');
+          window.parent.postMessage('test','https://edmondskarp-dev-ed--c.ap6.visual.force.com');
+        }       
+    </script>
+    
+</head>
+<body>
+  <a href="###" onclick="testMethod();return false">testttt</a>
+</body>
+</html>
