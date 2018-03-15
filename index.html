@@ -5,7 +5,8 @@
     
     <script>
         function testMethod(){
-          alert('testPage');
+            var url=window.location.href.split("?")[1];
+          alert('testPage'+url);
               window.parent.postMessage('test','*');
         }       
     </script>
