@@ -6,12 +6,12 @@
     <script>
         function testMethodPostMessage(){
             alert('Remote Test ea');
-            window.parent.postMessage('{"AccountId" : "0016A00000MKekPQAT"}','https://c.na50.visual.force.com');
+            window.parent.postMessage('{"type":"case","AccountId" : "0016A00000MKekPQAT"}','https://c.na50.visual.force.com');
         }       
     </script>
     
 </head>
 <body>
-  <a href="#" onclick="testMethodPostMessage();return false">Test Post Message</a>
+  <a href="#" onclick="testMethodPostMessage();return false">Test Post Message1</a>
 </body>
 </html>
