@@ -4,14 +4,13 @@
     <title>page</title>
     
     <script>
-        function testMethod(){
+        function testMethodPostMessage(){
             alert('Remote Test w');
-            window.parent.postMessage('{"AppId" : "wx481502016f940344","OpenId" : "oLGPfs9rs2e2TPpBOjWz3CK4EqX0","ChatSessionId" :"a026A00000E1CUyQANqqqee","AccountId":"0016A00000MKekPQAT"}','*');
         }       
     </script>
     
 </head>
 <body>
-  <a href="###" onclick="testMethod();return false">post message</a>
+  <a href="#" onclick="testMethodPostMessage();return false">Test Post Message</a>
 </body>
 </html>
